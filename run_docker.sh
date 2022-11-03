@@ -4,7 +4,7 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build --tag=mlproj4
+docker build --tag=mlproj4 .
 
 # Step 2: 
 # List docker images

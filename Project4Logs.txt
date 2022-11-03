@@ -1,0 +1,54 @@
+#8 331.6 Collecting pylint==2.4.4
+#8 331.7   Downloading pylint-2.4.4-py3-none-any.whl (302 kB)
+#8 332.6      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 303.0/303.0 kB 318.7 kB/s eta 0:00:00
+#8 333.1 Collecting isort<5,>=4.2.5
+#8 333.2   Downloading isort-4.3.21-py2.py3-none-any.whl (42 kB)
+#8 333.3      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.3/42.3 kB 2.8 MB/s eta 0:00:00
+#8 333.5 Collecting astroid<2.4,>=2.3.0
+#8 333.6   Downloading astroid-2.3.3-py3-none-any.whl (205 kB)
+#8 334.0      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 205.7/205.7 kB 547.7 kB/s eta 0:00:00
+#8 334.1 Collecting mccabe<0.7,>=0.6
+#8 334.2   Downloading mccabe-0.6.1-py2.py3-none-any.whl (8.6 kB)
+#8 334.6 Collecting wrapt==1.11.*
+#8 334.7   Downloading wrapt-1.11.2.tar.gz (27 kB)
+#8 334.8   Preparing metadata (setup.py): started
+#8 335.2   Preparing metadata (setup.py): finished with status 'done'
+#8 335.4 Collecting lazy-object-proxy==1.4.*
+#8 335.5   Downloading lazy_object_proxy-1.4.3-cp37-cp37m-manylinux1_x86_64.whl (56 kB)
+#8 335.7      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.5/56.5 kB 315.6 kB/s eta 0:00:00
+#8 336.1 Collecting typed-ast<1.5,>=1.4.0
+#8 336.2   Downloading typed_ast-1.4.3-cp37-cp37m-manylinux1_x86_64.whl (743 kB)
+#8 338.0      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 743.4/743.4 kB 418.5 kB/s eta 0:00:00
+#8 338.1 Building wheels for collected packages: wrapt
+#8 338.1   Building wheel for wrapt (setup.py): started
+#8 339.0   Building wheel for wrapt (setup.py): finished with status 'done'
+#8 339.0   Created wheel for wrapt: filename=wrapt-1.11.2-cp37-cp37m-linux_x86_64.whl size=71332 sha256=c2ede5c02e6292382c3ddb4d609dbe4c9cc2e521be400fd0f4222add1495941c
+#8 339.0   Stored in directory: /root/.cache/pip/wheels/ac/7b/9a/b4dd4f4bce9cc74996b980d7a2de1421d9a5c57a83963be12f
+#8 339.0 Successfully built wrapt
+#8 339.2 Installing collected packages: wrapt, typed-ast, pytz, mccabe, Werkzeug, six, numpy, MarkupSafe, lazy-object-proxy, itsdangerous, isort, Click, scipy, python-dateutil, Jinja2, astroid, scikit-learn, pylint, pandas, Flask
+#8 349.2 Successfully installed Click-7.0 Flask-1.0.2 Jinja2-2.10.3 MarkupSafe-1.1.1 Werkzeug-0.16.0 astroid-2.3.3 isort-4.3.21 itsdangerous-1.1.0 lazy-object-proxy-1.4.3 mccabe-0.6.1 numpy-1.17.2 pandas-0.24.2 pylint-2.4.4 python-dateutil-2.8.0 pytz-2019.3 scikit-learn-0.20.3 scipy-1.3.1 six-1.12.0 typed-ast-1.4.3 wrapt-1.11.2
+#8 349.2 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#8 DONE 351.7s
+
+#11 exporting to image
+#11 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00
+#11 exporting layers
+#11 exporting layers 2.3s done
+#11 writing image sha256:89d26d097f3c7966e2aece83787a18a04dac6a0381d2c1b4986c5e5944c68e46 done
+#11 naming to docker.io/library/mlproj4 done
+#11 DONE 2.4s
+
+Use 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them
+REPOSITORY                                      TAG       IMAGE ID       CREATED         SIZE
+mlproj4                                         latest    89d26d097f3c   6 seconds ago   1.28GB
+docker.elastic.co/elasticsearch/elasticsearch   7.13.0    4616c6f8bf5d   17 months ago   854MB
+docker.elastic.co/kibana/kibana                 7.13.0    792015178baf   17 months ago   1.15GB
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 213-607-270
