@@ -1,0 +1,9 @@
+Manoj@DESKTOP-JBCA90Q MINGW64 /d/Manoj_Work/Udacity/project4/project4_ml/project4-udacity-ml-ms-k8 (master)
+$ ./run_kubernetes.sh
+Authenticating with existing credentials...
+Login Succeeded
+error: failed to create deployment: deployments.apps "mlproj4" already exists
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+mlproj4   1/1     1            1           8m5s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80

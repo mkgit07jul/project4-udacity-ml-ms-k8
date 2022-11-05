@@ -1,0 +1,10 @@
+Manoj@DESKTOP-JBCA90Q MINGW64 /d/Manoj_work/Udacity/project4/project4_ml/project4-udacity-ml-ms-k8 (master)
+$ ./make_prediction.sh
+Port: 8080
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   260  100    48  100   212    516   2279 --:--:-- --:--:-- --:--:--  2795{
+  "prediction": [
+    20.35373177134412
+  ]
+}
